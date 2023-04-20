@@ -1,0 +1,5 @@
+dbt run-operation {macro} --args '{args}'
+
+dbt run-operation clean_stale_models --args '{days: 7, dry_run: True}'
+
+

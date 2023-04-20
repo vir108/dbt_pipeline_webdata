@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: RAW_PAGEACTIVITY
+    database: pgwebdata
+    schema: raw
+    tables: 
+      - name: PageActivity_raw_data
+      - name: PageActivityDetail_raw_data
+
